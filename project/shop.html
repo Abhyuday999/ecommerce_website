@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table{
+            margin: 2% 5% 5% 7%;
+        }
+        .products-row{
+            padding-bottom: 10%;
+        }
+        .product{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            padding: 20px;
+        }
+        .product img{
+            width: 150px;
+            height: 150px;
+            padding-left: 80px;
+        }
+        .old-price{
+            text-decoration: line-through;
+            margin-right: 5px;
+        }
+        .offer{
+            color: red;
+        }
+        .product button{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        .product button:hover{
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="signup.html">SIGN UP</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </div>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images\as store.png" alt="logo img">
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+    <table class="products">
+        <tr class="products-row">
+            <td class="product">
+                <img src="images\airpods.png" alt="product">
+                <div class="product-piece"><h3>Apple AirPods Pro</h3><p>H1 chip, active noise cancellation, transparency mode, spatial audio, 24-hour battery, sweat-resistant, Siri, wireless charging.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">40,000</span><span>36,000</span><span class="offer">(10% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\earphone.png" alt="product">
+                <div class="product-piece"><h3>Sony WF-1000XM4</h3><p>V1 processor, active noise cancellation, 24-hour battery, IPX4 water resistance, touch controls, Alexa, wireless charging, Hi-Res audio.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">10,000</span>8,700<span class="offer">(5% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\headphones.png" alt="product">
+                <div class="product-piece"><h3>Bose QuietComfort 35 II</h3><p>Active noise cancellation, 20-hour battery, Bose AR, built-in Google Assistant/Alexa, and balanced audio with clear highs and deep bass.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">27,000</span>23,000<span class="offer">(16% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+        </tr>
+        <tr class="products-row">
+            <td class="product">
+                <img src="images\headphones 2.png" alt="product">
+                <div class="product-piece"><h3>Sennheiser HD 660 S</h3><p>Open-back design, 150-ohm impedance, detailed soundstage, high-fidelity audio reproduction, and lightweight aluminum voice coils for dynamic sound.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">22,000</span><span>20,000</span><span class="offer">(11% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\iphone.png" alt="product">
+                <div class="product-piece"><h3>iPhone 13 Pro</h3><p>A15 Bionic chip, 6GB RAM, ProMotion display, triple-camera system, 1TB storage, and 5G connectivity for top-tier performance.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">1,00,000</span>97,000<span class="offer">(12% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\laptop (1).png" alt="product">
+                <div class="product-piece"><h3>Apple MacBook Pro</h3><p> M1 chip, 16GB RAM, 512GB SSD, macOS, integrated GPU, and advanced thermal management for high performance.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">1,55,000</span>1,50,000<span class="offer">(7% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+        </tr>
+        <tr class="products-row">
+            <td class="product">
+                <img src="images\laptop.png" alt="product">
+                <div class="product-piece"><h3>Dell XPS</h3><p> Intel i7 CPU, 32GB RAM, 1TB SSD, NVIDIA GPU, Windows 11, and advanced cooling system for demanding tasks.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">85,000</span><span>80,000</span><span class="offer">(17% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\smartwatch.png" alt="product">
+                <div class="product-piece"><h3>Apple Watch Series 7</h3><p>S7 chip, 32GB storage, Retina display,blood oxygen sensor, heart rate monitor, GPS, water-resistant (WR50), 18-hour battery life, watchOS.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">70,000</span>68,000<span class="offer">(15% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\tablet.png" alt="product">
+                <div class="product-piece"><h3>Apple iPad Pro</h3><p>M1 chip, Liquid Retina XDR display, ProMotion technology, Face ID, Apple Pencil compatibility, and versatile iPadOS for productivity.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">1,70,000</span>1,66,000<span class="offer">(20% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+        </tr>
+        <tr class="products-row">
+            <td class="product">
+                <img src="images\vivo.png" alt="product">
+                <div class="product-piece"><h3>Vivo X70 Pro+</h3><p>Snapdragon 888+, 12GB RAM, 512GB storage, 6.78" AMOLED, 120Hz, quad-camera (50MP), 32MP front, 5G, 4500mAh, Android 11.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">52,000</span><span>50,000</span><span class="offer">(10% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\washing machine 2.png" alt="product">
+                <div class="product-piece"><h3>Whirlpool</h3><p>6th Sense technology, FreshCare+, Intuitive Controls, ZEN Direct Drive motor, and SteamCare for effective cleaning and fabric care.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">70,000</span>66,000<span class="offer">(25% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\washing machine 3.png" alt="product">
+                <div class="product-piece"><h3>LG</h3><p>Direct Drive motor, TurboWash technology, TrueSteam technology, NFC Tag On, and Smart Diagnosis for efficient and convenient washing.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">50,000</span>49,000<span class="offer">(5% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+        </tr>
+        <tr class="products-row">
+            <td class="product">
+                <img src="images\washing machine.png" alt="product">
+                <div class="product-piece"><h3>Samsung</h3><p>EcoBubble technology, digital inverter motor, AI-powered laundry care, large capacity, and smartphone connectivity for smart laundry management.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">40,000</span><span class="price">38,000</span><span class="offer">(5% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\watch (2).png" alt="product">
+                <div class="product-piece"><h3>Rolex Submariner</h3><p>70-hour power reserve, chronometer-certified, unidirectional rotating bezel, and luminescent markers for underwater readability and precision.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">7,000</span>6,500<span class="offer">(10% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+            <td class="product">
+                <img src="images\watch.png" alt="product">
+                <div class="product-piece"><h3>Omega Seamaster</h3><p>Co-Axial escapement, automatic movement, 60-hour power reserve, anti-magnetic, helium escape valve, and water-resistant for professional diving.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="old-price">10,000</span>8,000<span class="offer">(20% off)</span></h5><button>Add to Cart</button></div>
+            </td>
+        </tr>
+    </table>
+    <div class="important">
+        <div class="column"><h4><u>Get To Know Us</u></h4>
+            <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Press Releases</a></li>
+            </ul>
+        </div>
+        <div class="column"><h4><u>Connect With Us</u></h4>
+            <ul>
+            <li><a href=""><i class="fa fa-instagram" style="font-size:24px;padding: 5px;"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter" style="font-size:24px;padding: 5px;"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube" style="font-size:24px;padding: 5px;"></i></a></li>
+            <li><a href=""><i class="fa fa-facebook" style="font-size:24px;padding: 5px;"></i></a></li>
+            </ul>
+        </div>
+        <div class="column"><h4><u>Let Us Help You</u></h4>
+            <ul>
+            <li><a href="">Your Account</a></li>
+            <li><a href="">Return Centre</a></li>
+            <li><a href="">100% Purchase Protection</a></li>
+            <li><a href="">Recalls and Product Safety Alerts</a></li>
+            <li><a href="">Help Centre</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; By Abhyuday . 2024 SRMU</p>
+    </footer>

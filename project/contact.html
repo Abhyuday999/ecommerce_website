@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: rgb(152, 233, 152);
+        }
+        h1{
+            margin: 7% 0 5% 15%;
+            font-weight: 1000;
+        }
+        #division{
+            display: flex;
+            flex-direction: row;
+            margin: 3% 7% 0 15%;
+        }
+        #message{
+            width: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+        input,textarea{
+            font-size: 17px;
+            padding: 2px;
+            width: 70%;
+            height: 35px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        button{
+            width: 20%;
+            margin-top: 10px;
+            height: 30px;
+            font-size: 17px;
+            border-radius: 10px;
+            background: linear-gradient(to left,rgb(94, 206, 19),green);
+            color: white;
+            border: 1px solid green;
+        }
+        button:hover{
+            background: linear-gradient(to right,rgb(94, 206, 19),green);
+            cursor: pointer;
+        }
+        #info{
+            width: 30%;
+            background-color: darkgreen;
+            color: white;
+            padding: 3%;
+            margin-right: 20%;
+        }
+        #info ul{
+            padding: 7% 0 5% 10%;
+            list-style-type: none;
+        }
+        #info li{
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="signup.html">SIGN UP</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </div>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images\as store.png" alt="logo img">
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+    <div>
+        <h1>Get In Touch</h1>
+        <div id="division">
+            <div id="message">
+                <h3>Send Us A Message</h3>
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="email" name="email" placeholder="Email"><br>
+                <textarea name="mssge" placeholder="Type Your Message"></textarea><br>
+                <button>Submit</button>
+            </div>
+            <div id="info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><i class="fa fa-phone" style="font-size:24px;color:red;padding-right: 5px;"></i>3670-875-4352</li>
+                    <li><i class="fa fa-envelope" style="font-size:24px;color:red;padding-right: 5px;"></i>AStore@electro.com</li>
+                    <li><i class="fa fa-map-marker" style="font-size:28px;color:red;padding-right: 5px;"></i>252/1200, Sector-K, Gomtinagar, Lucknow,<br>Uttar Pradesh,226005</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="important">
+        <div class="column"><h4><u>Get To Know Us</u></h4>
+            <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Press Releases</a></li>
+            </ul>
+        </div>
+        <div class="column"><h4><u>Connect With Us</u></h4>
+            <ul>
+            <li><a href=""><i class="fa fa-instagram" style="font-size:24px;padding: 5px;"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter" style="font-size:24px;padding: 5px;"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube" style="font-size:24px;padding: 5px;"></i></a></li>
+            <li><a href=""><i class="fa fa-facebook" style="font-size:24px;padding: 5px;"></i></a></li>
+            </ul>
+        </div>
+        <div class="column"><h4><u>Let Us Help You</u></h4>
+            <ul>
+            <li><a href="">Your Account</a></li>
+            <li><a href="">Return Centre</a></li>
+            <li><a href="">100% Purchase Protection</a></li>
+            <li><a href="">Recalls and Product Safety Alerts</a></li>
+            <li><a href="">Help Centre</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; By Abhyuday . 2024 SRMU</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-color: rgba(16, 53, 16, 0.986);
+}
+.header ul{
+    margin-left: 80%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.header li{
+    padding: 5px 15px;
+}
+.header li a{
+    color: white;
+    text-decoration: none;
+}
+.header li a:hover{
+    color: green;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right,rgb(94, 206, 19),green);
+}
+.logo{
+    width: 35%;
+}
+.logo img{
+    width: 130px;
+    height: 80px;
+    padding: 0 10px;
+}
+.navbar ul{
+    width: 65%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.navbar li{
+    padding: 10px 20px;
+}
+.navbar ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar ul a:hover{
+    color: yellow;
+}
+.important{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(16, 53, 16, 0.986);
+    color: white;
+    padding: 10px 0 5% 15%;
+}
+.column{
+    padding-right: 17%;
+}
+.column h4{
+    margin-bottom: 7px;
+}
+.important ul{
+    list-style-type: none;
+}
+.important a{
+    color: white;
+    text-decoration: none;
+}
+.important a:hover{
+    color: green;
+}
+footer{
+    text-align: center;
+    background-color: rgba(16, 53, 16, 0.986);
+    color: white;
+}
